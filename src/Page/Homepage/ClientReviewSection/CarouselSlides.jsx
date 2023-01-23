@@ -5,9 +5,11 @@ const CarouselSlides = ({ d, i, length }) => {
   return (
     <div id={`slide${i + 1}`} className="carousel-item relative w-full my-10">
       <div className="flex items-center justify-center w-full">
-        <div className="avatar mr-5">
-          <div className="rounded-full">
-            <img className="w-10 sm:w-24" src={img} alt={name} />
+        <div className="w-24 sm:w-36 mr-5">
+          <div className="avatar">
+            <div className="rounded-full">
+              <img className="w-full" src={img} alt={name} />
+            </div>
           </div>
         </div>
         <div className="max-w-lg w-1/2 sm:w-2/3">
