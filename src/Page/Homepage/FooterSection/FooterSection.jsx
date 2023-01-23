@@ -5,8 +5,8 @@ import { FaGooglePlusG } from "react-icons/fa";
 
 const FooterSection = () => {
   return (
-    <footer>
-      <div className="footer p-10 bg-base-200 text-base-content">
+    <footer id="footer">
+      <div className="footer px-4 py-10 sm:p-6 lg:p-24 bg-base-200 text-base-content flex flex-col sm:flex-row sm:items-start sm:justify-between">
         <div className="max-w-sm">
           <h3 className="text-4xl font-bold">About Company</h3>
           <p>
@@ -18,23 +18,31 @@ const FooterSection = () => {
         </div>
         <div>
           <span className="footer-title">Quick Links</span>
-          <a className="link link-hover text-black">Home</a>
-          <a className="link link-hover text-black">Product</a>
-          <a className="link link-hover text-black">Pricing</a>
-          <a className="link link-hover text-black">Contact</a>
+          <a href="#home" className="link link-hover text-black">
+            Home
+          </a>
+          <a href="#product" className="link link-hover text-black">
+            Product
+          </a>
+          <a href="#pricing" className="link link-hover text-black">
+            Pricing
+          </a>
+          <a href="#footer" className="link link-hover text-black">
+            Contact
+          </a>
         </div>
         <div>
           <span className="footer-title">Contact Us</span>
           <p className="">info@company.com</p>
           <p className="">+91 009 000000000</p>
           <div className="flex justify-start items-center">
-            <a href="https://www.fb.com">
+            <a href="https://www.fb.com" target="_blank">
               <FaFacebookF className="text-xl mr-2 text-black"></FaFacebookF>
             </a>
-            <a href="https://www.twitter.com">
+            <a href="https://www.twitter.com" target="_blank">
               <FaTwitter className="text-xl mr-2 text-black"></FaTwitter>
             </a>
-            <a href="https://www.google.com">
+            <a href="https://www.google.com" target="_blank">
               <FaGooglePlusG className="text-2xl mr-2 text-black"></FaGooglePlusG>
             </a>
           </div>

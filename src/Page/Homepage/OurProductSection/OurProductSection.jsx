@@ -2,10 +2,12 @@ import React from "react";
 
 const OurProductSection = () => {
   return (
-    <div className="py-10">
-      <h2 className="text-4xl font-bold uppercase text-center">Our Product</h2>
+    <div id="product" className="py-10 lg:px-20">
+      <h2 className="text-3xl sm:text-4xl font-bold uppercase text-center">
+        Our Product
+      </h2>
       {/* --------- Products Cards Container --------- */}
-      <div className="flex items-center justify-between mt-10">
+      <div className="flex flex-col sm:flex-row items-center justify-between mt-10">
         {/* --------- 1st Card --------- */}
         <div className="max-w-sm flex flex-col items-center justify-center p-6">
           <div>
@@ -16,7 +18,9 @@ const OurProductSection = () => {
             />
           </div>
           <div className="text-center">
-            <h3 className="text-2xl font-bold uppercase my-5">Seo</h3>
+            <h3 className="text-xl sm:text-2xl font-bold uppercase my-5">
+              Seo
+            </h3>
             <p className="">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Consectetur dolores blanditiis, quae distinctio maiores hic
@@ -35,7 +39,9 @@ const OurProductSection = () => {
             />
           </div>
           <div className="text-center">
-            <h3 className="text-2xl font-bold uppercase my-5">Branding</h3>
+            <h3 className="text-xl sm:text-2xl font-bold uppercase my-5">
+              Branding
+            </h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Consectetur dolores blanditiis, quae distinctio maiores hic
@@ -54,7 +60,9 @@ const OurProductSection = () => {
             />
           </div>
           <div className="text-center">
-            <h3 className="text-2xl font-bold uppercase my-5">Logo</h3>
+            <h3 className="text-xl sm:text-2xl font-bold uppercase my-5">
+              Logo
+            </h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Consectetur dolores blanditiis, quae distinctio maiores hic

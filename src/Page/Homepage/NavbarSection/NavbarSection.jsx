@@ -3,7 +3,7 @@ import React from "react";
 const NavbarSection = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 lg:px-24">
         <div className="navbar">
           {/* --------- dropdown navbar ---------  */}
           <div className="dropdown">
@@ -28,16 +28,16 @@ const NavbarSection = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a>Product</a>
+                <a href="#product">Product</a>
               </li>
               <li>
-                <a>Pricing</a>
+                <a href="#aboutUs">Pricing</a>
               </li>
               <li>
-                <a>Contact Us</a>
+                <a href="#footer">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -48,16 +48,16 @@ const NavbarSection = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a>Product</a>
+              <a href="#product">Product</a>
             </li>
             <li>
-              <a>Pricing</a>
+              <a href="#aboutUs">Pricing</a>
             </li>
             <li>
-              <a>Contact Us</a>
+              <a href="#footer">Contact Us</a>
             </li>
           </ul>
         </div>
